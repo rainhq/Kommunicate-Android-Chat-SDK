@@ -22,12 +22,12 @@ allprojects {
         google()
         mavenCentral()
     }
-}
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            from components.java
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                from components.java
+            }
         }
     }
 }
