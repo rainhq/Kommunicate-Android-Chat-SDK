@@ -14,8 +14,8 @@ buildscript {
 }
 
 allprojects {
-    /*apply plugin: 'com.jfrog.artifactory'
-    apply plugin: 'maven-publish'*/
+    /*apply plugin: 'com.jfrog.artifactory'*/
+    apply plugin: 'maven-publish'
 
     repositories {
         google()
