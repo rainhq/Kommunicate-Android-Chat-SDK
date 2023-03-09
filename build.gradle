@@ -15,8 +15,9 @@ buildscript {
 
 allprojects {
     /*apply plugin: 'com.jfrog.artifactory'*/
-    apply plugin: 'maven-publish'
-
+    apply plugin: 'maven'
+    group = 'com.github.rainhq'
+    
     repositories {
         google()
         mavenCentral()
